@@ -1,0 +1,96 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    margin-bottom: 1;
+}
+
+/* Hero Section */
+.hero {
+    background: #333;
+    color: hsl(0, 100%, 49%);
+    padding: 100px 0;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+.hero.appear {
+    opacity: 1;
+}
+
+.hero-title {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero-subtitle {
+    font-size: 1.5em;
+}
+
+/* About Section */
+.about-section {
+    padding: 60px 0;
+    background: hwb(0 100% 0%);
+    text-align: center;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+.about-section.appear {
+    opacity: 1;
+}
+
+/* Projects Section */
+.projects-section {
+    padding: 60px 0;
+    background: hwb(54 7% 0%);
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+.projects-section.appear {
+    opacity: 1;
+}
+
+.project-card {
+    border: 1px solid rgb(22, 5, 255);
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-info {
+    padding: 20px;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 60px 0;
+    background: hsl(266, 100%, 51%);
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+.contact-section.appear {
+    opacity: 1;
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: #ff0808;
+    text-align: center;
+    padding: 20px 0;
+}
